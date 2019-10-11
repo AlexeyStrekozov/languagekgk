@@ -154,6 +154,10 @@ h3 {
   height: 390px;
 }
 
+.courses-all {
+  padding: 30px 0;
+}
+
 .courses-wrap {
   height: 100%;
 }
@@ -244,7 +248,7 @@ h3 {
   font-size: 15px;
   position: relative;
   padding: 30px;
-  width: 49%;
+  width: 47%;
   padding-left: 0;
 }
 
