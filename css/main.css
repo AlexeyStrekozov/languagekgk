@@ -5,8 +5,26 @@
 }
 
 .container {
-  width: 1140px;
+  width: 1200px;
   margin: 0 auto;
+  height: 100%;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  margin: 10px 0;
+  text-align: justify;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  letter-spacing: .04rem;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .header {
@@ -18,22 +36,21 @@
   overflow-y: hidden;
 }
 
+.header-city {
+  position: absolute;
+  background-image: url("../img/header.png");
+  height: 180px;
+  width: 100vw;
+  bottom: 20px;
+  z-index: 9999;
+}
+
 .header-wrap {
   padding: 50px 0;
   overflow-y: hidden;
   width: 100vw;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
-}
-
-.header-wrap::after {
-  content: "";
-  position: absolute;
-  background-image: url("../img/bg.png");
-  height: 122px;
-  width: 100vw;
-  bottom: 0;
-  z-index: 9999;
 }
 
 .header-content {
@@ -115,8 +132,11 @@
   letter-spacing: .04rem;
 }
 
+.about {
+  padding: 40px 0;
+}
+
 .about-content__title {
-  margin-top: 40px;
   margin-bottom: 25px;
 }
 
@@ -128,14 +148,173 @@
   letter-spacing: .1rem;
 }
 
-.about-content__text h3 {
-  font-family: 'Merriweather', serif;
-  letter-spacing: .04rem;
+.courses {
+  position: relative;
+  padding: 40px 0 0 0;
+  height: 390px;
 }
 
-.about-content__text p {
-  font-family: 'Open Sans', sans-serif;
-  margin: 10px 0;
-  text-align: justify;
+.courses-wrap {
+  height: 100%;
+}
+
+.courses-wrap.container {
+  height: 100%;
+}
+
+.courses-right {
+  position: relative;
+  padding: 40px 0 0 0;
+  height: 390px;
+}
+
+.courses-right-prog {
+  width: 100%;
+  height: 390px;
+}
+
+.courses-right-prog:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/prog.jpg");
+  background-size: cover;
+  left: 0;
+  top: 0;
+}
+
+.courses-right-reading {
+  width: 100%;
+  height: 390px;
+}
+
+.courses-right-reading:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/reading.jpg");
+  background-size: cover;
+  left: 0;
+  top: 0;
+}
+
+.courses-language {
+  width: 100%;
+  height: 390px;
+}
+
+.courses-language:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/language.jpg");
+  background-size: cover;
+  right: 0;
+  top: 0;
+}
+
+.courses-math {
+  width: 100%;
+  height: 390px;
+}
+
+.courses-math:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/math.jpg");
+  background-size: cover;
+  right: 0;
+  top: 0;
+}
+
+.courses-color {
+  background-color: #f5f5f5;
+}
+
+.courses-block {
+  position: relative;
+}
+
+.courses-block__left {
+  font-size: 15px;
+  position: relative;
+  padding: 30px;
+  width: 49%;
+  padding-left: 0;
+}
+
+.courses-block__left__text {
+  margin: 0 auto;
+}
+
+.courses-block__right {
+  font-size: 15px;
+  position: absolute;
+  right: 58px;
+  width: 44%;
+  padding: 30px;
+  padding-right: 0;
+}
+
+.courses-block__right__text {
+  margin-left: 10px;
+}
+
+.courses-block-popup {
+  width: 100%;
+  height: 100%;
+  padding-top: 50px;
+  top: 0;
+  left: 0;
+  display: none;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.courses-block-popup-content {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.courses-block-popup-content-close {
+  cursor: pointer;
+  position: absolute;
+  right: 34px;
+  font-size: 23px;
+}
+
+.courses-block-details {
+  margin-top: 25px;
+  position: relative;
+  height: 30px;
+}
+
+.courses-block-details button {
+  text-transform: uppercase;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+  font-family: 'Merriweather', serif;
+  padding: 5px;
+  color: #000;
+  text-decoration: underline;
+  background-color: transparent;
+  border: 0;
+  border-radius: 3px;
+  outline: none;
+}
+
+.opnePopUP {
+  display: block;
+  z-index: 9999;
 }
 /*# sourceMappingURL=main.css.map */

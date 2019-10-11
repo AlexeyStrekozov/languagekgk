@@ -5,20 +5,19 @@
     background-image: url('../img/bk-header.jpg')
     background-position: center
     overflow-y: hidden
+    &-city
+        position: absolute
+        background-image: url('../img/header.png')
+        height: 180px
+        width: 100vw
+        bottom: 20px
+        z-index: 9999
     &-wrap
         padding: 50px 0
         overflow-y: hidden
         width: 100vw
         height: 100%
         background-color: rgba(0, 0, 0, 0.7)
-        &::after
-            content: ""
-            position: absolute
-            background-image: url('../img/bg.png')
-            height: 122px
-            width: 100vw
-            bottom: 0
-            z-index: 9999
     &-content 
         z-index: 9998
         
