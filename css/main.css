@@ -322,6 +322,18 @@ h3 {
   z-index: 9999;
 }
 
+.advantage-wrap .wrap {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 .advantage-block {
   width: 200px;
 }
