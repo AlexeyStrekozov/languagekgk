@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
     <title>Лингвоцентер КГУ</title>
 </head>
 <body>
@@ -55,6 +57,7 @@
     <section class="advantage">
         <div class="advantage-wrap">
             <div class="container">
+                <div class="advantage-title"><h1>Почему выбирают нас</h1></div>
                 <div class="row">
                     <div class="wrap">
                         <div class="advantage-block">
@@ -87,6 +90,50 @@
                             </div>
                             <div class="advantage-block__text">
                                 Эффективные программы обучения
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="figures">
+        <div class="figures-wrap">
+            <div class="container">
+                <div class="advantage-title"><h1>Немного цифр</h1></div>
+                <div class="row">
+                    <div class="wrap">
+                        <div class="figures-block">
+                            <div class="advantage-block__img">
+                                <img src="img/figures/monster.png" alt="">
+                            </div>
+                            <div class="figures-block__text">
+                                10 лет на рынке
+                            </div>
+                            <div class="figures-block__text__description">
+                                На рынке образовательных услуг по дополнительным образовательным программам для взрослых
+                            </div>
+                        </div>
+                        <div class="figures-block">
+                            <div class="advantage-block__img">
+                                <img src="img/figures/monster (1).png" alt="">
+                            </div>
+                            <div class="figures-block__text">
+                                5 лет  на рынке
+                            </div>
+                            <div class="figures-block__text__description">
+                                На рынке образовательных услуг по дополнительным образовательным программам для детей и школьников
+                            </div>
+                        </div>
+                        <div class="figures-block">
+                            <div class="figures-block__img">
+                                <img src="img/figures/monster (2).png" alt="">
+                            </div>
+                            <div class="figures-block__text">
+                                Преподаватели
+                            </div>
+                            <div class="figures-block__text__description">
+                                Ведущие специалисты Курганского госуниверситета
                             </div>
                         </div>
                     </div>
@@ -239,8 +286,7 @@
                                     <p>Скорочтение включает: скорость, понимание, и запоминание прочитанного. С таким навыком можно 
                                         быстро изучить интересующий предмет, область, специализацию, науку. Чем больше человек читает
                                         полезной литературы, тем более образованным и интеллектуальным становится.
-                                        Применяемые в процессе обучения приемы (эйдетика и мнемотехника) позволяют в корне пересмотреть сам подход 
-                                        к восприятию информации. </p>
+                                     </p>
                                     <div class='courses-block-details'><button class='courses-block-details-click'>Подробней</button></div>
                                     <div  class='courses-block-popup'>
                                         <div class="courses-block-popup-content">
@@ -273,6 +319,31 @@
                 </div>
         </div>
     </section>
+    <section class="slider">
+        <div class="slider-wrap">
+            <div class="container">
+                <div class="slider-photo">
+                    <div><img src="img/1.jpg" alt="" srcset=""></div>
+                    <div><img src="img/reading.jpg" alt="" srcset=""></div>
+                    <div><img src="img/math.jpg" alt="" srcset=""></div>
+                    <div><img src="img/language.jpg" alt="" srcset=""></div>
+                  </div>
+            </div>
+        </div>
+    </section>
     <script src="js/script.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider-photo').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000
+            });
+        });
+    </script>
 </body>
 </html>
