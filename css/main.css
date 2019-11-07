@@ -184,12 +184,13 @@ h3 {
 .courses {
   position: relative;
   padding: 70px 0 0 0;
-  height: 390px;
+  height: auto;
 }
 
 .courses-all {
   padding-top: 70px;
   background-color: #f5f5f5;
+  border-bottom: 2px solid;
 }
 
 .courses-all-title {
@@ -216,12 +217,11 @@ h3 {
 .courses-right {
   position: relative;
   padding: 40px 0 0 0;
-  height: 390px;
+  height: auto;
 }
 
 .courses-right-prog {
   width: 100%;
-  height: 390px;
 }
 
 .courses-right-prog:before {
@@ -235,9 +235,53 @@ h3 {
   top: 0;
 }
 
+.courses-right-language {
+  width: 100%;
+}
+
+.courses-right-language:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/language2.jpg");
+  background-size: cover;
+  left: 0;
+  top: 0;
+}
+
+.courses-right-language4 {
+  width: 100%;
+}
+
+.courses-right-language4:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/language4.jpg");
+  background-size: cover;
+  left: 0;
+  top: 0;
+}
+
+.courses-right-language6 {
+  width: 100%;
+}
+
+.courses-right-language6:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/language6.png");
+  background-size: cover;
+  left: 0;
+  top: 0;
+}
+
 .courses-right-reading {
   width: 100%;
-  height: 390px;
 }
 
 .courses-right-reading:before {
@@ -253,7 +297,6 @@ h3 {
 
 .courses-language {
   width: 100%;
-  height: 390px;
 }
 
 .courses-language:before {
@@ -267,9 +310,38 @@ h3 {
   top: 0;
 }
 
+.courses-language5 {
+  width: 100%;
+}
+
+.courses-language5:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/language5.jpg");
+  background-size: cover;
+  right: 0;
+  top: 0;
+}
+
+.courses-language3 {
+  width: 100%;
+}
+
+.courses-language3:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/language3.jpg");
+  background-size: cover;
+  right: 0;
+  top: 0;
+}
+
 .courses-math {
   width: 100%;
-  height: 390px;
 }
 
 .courses-math:before {
@@ -327,19 +399,20 @@ h3 {
 
 .courses-block-popup-content {
   position: relative;
-  width: 80%;
+  width: 60%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 40px;
   background-color: #ffffff;
   border-radius: 4px;
   max-height: 600px;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .courses-block-popup-content-close {
   cursor: pointer;
   position: fixed;
-  right: 166px;
+  right: 269px;
+  top: 64px;
   font-size: 23px;
 }
 

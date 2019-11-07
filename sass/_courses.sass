@@ -2,10 +2,13 @@
 .courses
     position: relative
     padding: 70px 0 0 0
-    height: 390px
+    height: auto
+    
     &-all
         padding-top: 70px
         background-color: #f5f5f5
+        border-bottom: 2px solid
+
         &-title
             text-align:  center
             margin-bottom: 40px 
@@ -22,10 +25,9 @@
     &-right
         position: relative
         padding: 40px 0 0 0
-        height: 390px
+        height: auto
         &-prog 
             width: 100%
-            height: 390px
             &:before
                 content: ""
                 position: absolute
@@ -35,9 +37,41 @@
                 background-size: cover
                 left: 0
                 top: 0 
+        &-language
+            width: 100%
+            &:before
+                content: ""
+                position: absolute
+                width: 50%
+                height: 100%
+                background-image: url('../img/language2.jpg')
+                background-size: cover
+                left: 0
+                top: 0 
+        &-language4
+            width: 100%
+            &:before
+                content: ""
+                position: absolute
+                width: 50%
+                height: 100%
+                background-image: url('../img/language4.jpg')
+                background-size: cover
+                left: 0
+                top: 0
+        &-language6
+            width: 100%
+            &:before
+                content: ""
+                position: absolute
+                width: 50%
+                height: 100%
+                background-image: url('../img/language6.png')
+                background-size: cover
+                left: 0
+                top: 0        
         &-reading 
             width: 100%
-            height: 390px
             &:before
                 content: ""
                 position: absolute
@@ -50,7 +84,6 @@
     
     &-language 
         width: 100%
-        height: 390px
         &:before
             content: ""
             position: absolute
@@ -60,9 +93,30 @@
             background-size: cover
             right: 0
             top: 0
+    &-language5
+        width: 100%
+        &:before
+            content: ""
+            position: absolute
+            width: 50%
+            height: 100%
+            background-image: url('../img/language5.jpg')
+            background-size: cover
+            right: 0
+            top: 0
+    &-language3 
+        width: 100%
+        &:before
+            content: ""
+            position: absolute
+            width: 50%
+            height: 100%
+            background-image: url('../img/language3.jpg')
+            background-size: cover
+            right: 0
+            top: 0
     &-math 
         width: 100%
-        height: 390px
         &:before
             content: ""
             position: absolute
@@ -102,18 +156,20 @@
             background-color: rgba(0, 0, 0, 0.7)
             &-content
                 position: relative
-                width: 80%
+                width: 60%
                 margin: 0 auto
-                padding: 20px
+                padding: 40px
                 background-color: #ffffff
                 border-radius: 4px
                 max-height: 600px
-                overflow-y: scroll
+                overflow-y: auto
                 &-close
                     cursor: pointer
                     position: fixed
-                    right: 166px
+                    right: 269px
+                    top: 64px
                     font-size: 23px
+
             &-ul
                 margin: 5px 0 10px 20px
                 font-family: 'Open Sans', sans-serif
