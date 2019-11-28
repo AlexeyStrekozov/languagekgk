@@ -220,17 +220,37 @@ h3 {
   height: auto;
 }
 
-.courses-right-prog {
+.courses-right-programm {
   width: 100%;
 }
 
-.courses-right-prog:before {
+.courses-right-programm:before {
   content: "";
   position: absolute;
   width: 50%;
   height: 100%;
-  background-image: url("../img/prog.jpg");
-  background-size: cover;
+  background-image: url("../img/443.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  left: 0;
+  top: 0;
+}
+
+.courses-right-programm1 {
+  width: 100%;
+}
+
+.courses-right-programm1:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/olp.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
   left: 0;
   top: 0;
 }
@@ -292,6 +312,38 @@ h3 {
   background-image: url("../img/reading.png");
   background-size: cover;
   left: 0;
+  top: 0;
+}
+
+.courses-programm {
+  width: 100%;
+}
+
+.courses-programm:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/web.jpg");
+  background-size: cover;
+  right: 0;
+  top: 0;
+}
+
+.courses-programm1 {
+  width: 100%;
+}
+
+.courses-programm1:before {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-image: url("../img/java.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  right: 0;
   top: 0;
 }
 
