@@ -12,7 +12,21 @@
     <title>Лингвоцентер КГУ</title>
 </head>
 <body>
-    <header class="header">
+<header class="header">
+<div class="header-menu-mobile">
+<input id="header-menu-toggle" type="checkbox" style="display:none">
+<label class="header-menu-button" for="header-menu-toggle"><span></span></label>
+<label class="fulltoggle" for="header-menu-toggle"></label>
+<ul class="header-menu-box">
+<li><a href="#about"><div class="header-menu-item">О НАС</div></a></li>
+<li><a href="#language"><div class="header-menu-item">ИНОСТРАННЫЕ ЯЗЫКИ</div></a></li>
+<li><a href="#programm"><div class="header-menu-item">ПРОГРАММИРОВАНИЕ</div></a></li>
+<li><a href="#mathe"><div class="header-menu-item">МЕНТАЛЬНАЯ АРИФМЕТИКА</div></a></li>
+<li><a href="#reading"><div class="header-menu-item">СКОРОЧТЕНИЕ</div></a></li>
+<li><a href="#"><div class="header-menu-item">ПРОЕКТЫ И МЕРОПРИЯТИЯ</div></a></li>
+<li><a href="#"><div class="header-menu-item">КОНТАКТЫ</div></a></li>
+</ul>
+</div>
         <div class="logoKGU "><img src="img/kgu.png" alt=""></div>
         <div class="header-wrap">
             <div class="header-content">
@@ -703,7 +717,32 @@
                 asNavFor: '.slider-certificate .slider-wrap .container .slider-certificate-photo',
                 dots: true,
                 centerMode: true,
-                focusOnSelect: true
+                focusOnSelect: true,
+                responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            centerMode: true,
+            slidesToShow: 5
+          }
+        },
+        {
+          breakpoint: 800,
+          settings: {
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 550,
+          settings: {
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 2
+          }
+        }
+      ]
             });
         });
 
