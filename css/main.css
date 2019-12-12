@@ -264,10 +264,11 @@ h3 {
   position: absolute;
   width: 50%;
   height: 100%;
-  background-image: url("../img/language2.jpg");
+  background-image: url("../img/language.jpg");
   background-size: cover;
   left: 0;
   top: 0;
+  background-size: 300px;
 }
 
 .courses-right-language4 {
@@ -279,10 +280,13 @@ h3 {
   position: absolute;
   width: 50%;
   height: 100%;
-  background-image: url("../img/language4.jpg");
+  background-image: url("../img/lang4.jpg");
   background-size: cover;
   left: 0;
   top: 0;
+  background-size: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .courses-right-language6 {
@@ -356,7 +360,7 @@ h3 {
   position: absolute;
   width: 50%;
   height: 100%;
-  background-image: url("../img/language.jpg");
+  background-image: url("../img/lang1.jpg");
   background-size: cover;
   right: 0;
   top: 0;
@@ -371,10 +375,11 @@ h3 {
   position: absolute;
   width: 50%;
   height: 100%;
-  background-image: url("../img/language5.jpg");
-  background-size: cover;
+  background-image: url("../img/lang5.jpg");
   right: 0;
   top: 0;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .courses-language3 {
@@ -386,10 +391,14 @@ h3 {
   position: absolute;
   width: 50%;
   height: 100%;
-  background-image: url("../img/language3.jpg");
+  background-image: url("../img/lang3.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position-x: center;
   right: 0;
   top: 0;
+  background-size: 300px;
 }
 
 .courses-math {
